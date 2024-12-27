@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General card container styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    margin: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image container */
+.card-img {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Card body styling */
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Card name (h4) styling */
+.card-name {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Card category (origin) styling */
+.card-category {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Card price (size) styling */
+.card-price {
+    font-size: 1em;
+    color: #444;
+    margin: 5px 0;
+}
+
+/* Responsive design for multiple cards */
+@media (min-width: 768px) {
+    .card {
+        width: calc(33.333% - 30px);
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div id="main"></div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
